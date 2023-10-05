@@ -10,4 +10,8 @@ import lombok.NoArgsConstructor;
 public class ResponseGate {
 
   public boolean transactionResult;
+
+  public boolean isTransactionResult() {
+    return transactionResult;
+  }
 }
